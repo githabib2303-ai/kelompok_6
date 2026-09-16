@@ -26,109 +26,120 @@ public class Panel_habib extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jPanel6 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
+        jPanel5 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
 
         setMaximumSize(new java.awt.Dimension(1400, 1400));
-        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        setLayout(new java.awt.BorderLayout());
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("INSTITUT TEKNOLOGI");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, -1, -1));
+        jPanel1.setLayout(new javax.swing.BoxLayout(jPanel1, javax.swing.BoxLayout.Y_AXIS));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok_6/img/Frame 3.png"))); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, -1));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok_6/img/Desain Atas.png"))); // NOI18N
+
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        jLabel9.setForeground(java.awt.Color.blue);
+        jLabel9.setText("KARTU TANDA MAHASISWA");
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(jLabel1))
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(326, 326, 326)
+                .addComponent(jLabel9))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGap(5, 5, 5)
+                .addComponent(jLabel1)
+                .addGap(5, 5, 5)
+                .addComponent(jLabel9))
+        );
+
+        jPanel1.add(jPanel7);
+
+        add(jPanel1, java.awt.BorderLayout.PAGE_START);
+
+        jPanel2.setLayout(new javax.swing.BoxLayout(jPanel2, javax.swing.BoxLayout.Y_AXIS));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("MOJOSARI");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 60, -1, -1));
+        jLabel5.setForeground(java.awt.Color.blue);
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setText("Program Studi : Sistem Informasi (S.I)");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok_6/img/Desain Atas.png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok_6/img/LINK HABIB.png"))); // NOI18N
+        jLabel2.setText("jLabel2");
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("INSTITUT TEKNOLOGI");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, -1, -1));
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 944, Short.MAX_VALUE)
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addComponent(jLabel5)
+                .addGap(0, 0, 0)
+                .addComponent(jLabel2))
+        );
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("https://github.com/githabib2303-ai");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 580, -1, -1));
+        jPanel2.add(jPanel6);
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok_6/img/icons8-github-logo-75.png"))); // NOI18N
-        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 550, 100, 90));
+        add(jPanel2, java.awt.BorderLayout.PAGE_END);
 
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setText("Mojosari, Ngepeh Loceret, Kab. Nganjuk 64471");
-        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 580, -1, -1));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok_6/img/Habib.png"))); // NOI18N
+        jPanel3.add(jLabel3);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok_6/img/Desain Bawah.png"))); // NOI18N
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 550, -1, -1));
+        add(jPanel3, java.awt.BorderLayout.LINE_START);
 
-        jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel11.setForeground(java.awt.Color.blue);
-        jLabel11.setText("KARTU TANDA MAHASISWA");
-        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 140, -1, -1));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok_6/img/qr habib.png"))); // NOI18N
+        jPanel4.add(jLabel4);
 
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 230, -1, -1));
+        add(jPanel4, java.awt.BorderLayout.LINE_END);
 
-        jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel14.setText("202557201017");
-        add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 370, -1, -1));
+        jPanel5.setLayout(new java.awt.GridLayout(4, 1));
 
-        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel15.setForeground(java.awt.Color.blue);
-        jLabel15.setText("Program Studi : Sistem Informasi (S.I)");
-        add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 490, -1, -1));
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel6.setText("Nama : KHABIB MUSTOFA");
+        jLabel6.setPreferredSize(new java.awt.Dimension(298, 10));
+        jPanel5.add(jLabel6);
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok_6/img/Habib.png"))); // NOI18N
-        jLabel16.setPreferredSize(new java.awt.Dimension(190, 250));
-        add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, 170, 250));
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel7.setText("NIM : 202557201017");
+        jLabel7.setPreferredSize(new java.awt.Dimension(239, 10));
+        jPanel5.add(jLabel7);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kelompok_6/img/qr habib.png"))); // NOI18N
-        add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 230, -1, -1));
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel8.setText("Alamat : Dsn.Mojosari , Ds.Ngepeh , Kec.loceret , Kab.Nganjuk");
+        jLabel8.setPreferredSize(new java.awt.Dimension(530, 10));
+        jPanel5.add(jLabel8);
 
-        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel17.setText("NGANJUK , 09 SEPTEMBER 2006");
-        add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 310, -1, -1));
-
-        jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel18.setText("KHABIB MUSTOFA");
-        add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 240, -1, -1));
+        add(jPanel5, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -137,5 +148,12 @@ public class Panel_habib extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
     // End of variables declaration//GEN-END:variables
 }
