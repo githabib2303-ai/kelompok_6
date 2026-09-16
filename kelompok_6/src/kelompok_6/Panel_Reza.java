@@ -123,7 +123,7 @@ public class Panel_Reza extends javax.swing.JPanel {
         jPanel5.add(jLabel6);
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel7.setText("NIM : 202557201043");
+        jLabel7.setText("NIM : 202557201043   ");
         jLabel7.setPreferredSize(new java.awt.Dimension(239, 10));
         jPanel5.add(jLabel7);
 
