@@ -186,7 +186,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="24" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Nama : Achmad Khusnul Yakin"/>
+            <Property name="text" type="java.lang.String" value="Nama : ACHMAD KHUSNUL YAKIN"/>
             <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
               <Dimension value="[298, 10]"/>
             </Property>

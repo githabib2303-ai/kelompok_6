@@ -118,7 +118,7 @@ public class Panel_yakin extends javax.swing.JPanel {
         jPanel5.setLayout(new java.awt.GridLayout(4, 1));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel6.setText("Nama : Achmad Khusnul Yakin");
+        jLabel6.setText("Nama : ACHMAD KHUSNUL YAKIN");
         jLabel6.setPreferredSize(new java.awt.Dimension(298, 10));
         jPanel5.add(jLabel6);
 
