@@ -6,7 +6,7 @@ package kelompok_6;
 
 /**
  *
- * @author acer
+ * @author acerr
  */
 public class Kelompok_6 {
 
